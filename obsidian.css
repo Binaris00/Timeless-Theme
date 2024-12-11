@@ -44,7 +44,7 @@ File Organization
     --dark3: #707070;
     --gray: #999999;
     --gray-light: #ECEFF4;
-    --gray-dark: #4C566A;
+    --gray-dark: #525c69;
     --light0: #fdf3e7;
     --light1: #e3dacf;
     --light2: #fdf7f0;
@@ -98,6 +98,7 @@ File Organization
     --text-muted: var(--gray-dark);
     --interactive-accent: var(--dark0);
     --text-on-accent: var(--light0);
+    --active-line: var(--gray);
 }
 
 /* Main content views - light/dark */
@@ -131,7 +132,7 @@ File Organization
     --text-selection: var(--yellow2);
     --code-block: var(--light0);
     --pre-code: var(--dark1);
-    --acrtive-line: var(--gray-dark);
+    --active-line: var(--gray-dark);
 }
 
 .theme-light .markdown-source-view,
@@ -830,7 +831,7 @@ img {
 
 /* Active edit line selection */
 .cm-active {
-    background-color: var(--acrtive-line);
+    background-color: var(--active-line);
 }
 
 .graph-view.color-line {
