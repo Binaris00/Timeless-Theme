@@ -1,5 +1,5 @@
 /*
-VINTAGE THEME FOR OBSIDIAN.MD
+TIMELESS THEME FOR OBSIDIAN.MD
 
 File Organization
 
@@ -85,7 +85,7 @@ File Organization
     --text-faint: var(--gray-light);
     --text-muted: var(--gray-light);
     --interactive-accent: var(--light1);
-    --text-on-accent: var(--dark0);
+    --text-on-accent: var(--dark0); 
 }
 
 .theme-light {
@@ -542,6 +542,7 @@ ol li:before {
     text-decoration-color: var(--text-muted) !important;
 }
 
+
 /* 4.6 Blockquotes */
 .markdown-preview-view blockquote {
     font-size: var(--h3-size);
@@ -788,8 +789,8 @@ ol li:before {
     font-size: var(--h6-size);
 }
 
-.titlebar-inner {
-    color: var(--light0) !important;
+.titlebar-inner { 
+    color: var(--text-normal); 
 }
 
 /* ----------------- 9. Media Queries ----------------- */
@@ -805,7 +806,7 @@ ol li:before {
 
 /* ----------------- 10. Miscellaneous ----------------- */
 /* Horizontal rule */
-.markdown-preview-view hr {
+.hr {
     padding: 0;
     border: none;
     border-top: medium double var(--text-normal);
